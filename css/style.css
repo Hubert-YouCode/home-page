@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body{
+    margin: auto 0px;
+    font-family: "Lato", sans-serif;
+}
+
+
+.header{
+    margin: auto;
+    text-align: center;
+    border-bottom: 4px solid rgba(0, 255, 255, 0.445);
+    max-width: 80%;
+}
+
+.dark {
+    background-color: gray;
+    color: white;
+}

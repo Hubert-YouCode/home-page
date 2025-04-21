@@ -1,0 +1,58 @@
+.form{
+    margin: auto;
+    max-width: 80%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+    
+}
+.form__space{
+    max-width: 100%;
+    width: 300px;
+    
+}
+
+.form__item{
+    display: inline-block;
+    width: 150px;
+    margin-right: 5px;
+}
+
+.form__field{
+    border: 3px solid rgba(0, 255, 255, 0.445);;
+    border-radius: 25px;
+    background-color: rgba(128, 128, 128, 0.164);
+    box-shadow: 3px 3px 8px
+}
+
+.form__name{
+    margin-left: 50px;
+    border: 3px solid  rgba(0, 255, 255, 0.445);
+    border-radius: 25px;
+    padding: 10px;
+    background-color:  rgba(0, 255, 255, 0.26);;
+}
+
+.form__textArea{
+    resize: vertical;
+    min-height: 100px;
+    max-width: 100%;
+    width: 300px;
+}
+
+
+.form__button{
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: rgba(0, 255, 255, 0.445);;
+  border: none;
+  box-shadow: 3px 3px 6px;
+}
+
+
+.form__button:hover{
+    background-color: rgba(0, 255, 255, 0.596);
+    color: rgba(0, 0, 255, 0.425);
+}

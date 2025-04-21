@@ -1,0 +1,34 @@
+.project{
+    margin: auto;
+    border-top: 3px solid rgba(0, 255, 255, 0.445);
+    border-bottom: 3px solid rgba(0, 255, 255, 0.445);
+    max-width: 80%;
+}
+
+.project__item{
+    margin-left: 15px;
+}
+
+.project__list{
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.project__listItem{
+    text-decoration: none;
+    color: black;
+}
+
+.project__listItem:hover{
+    color: rgba(0, 0, 255, 0.425);
+}
+
+.project__info{
+    text-align: center;
+    font-size: small;
+}
+
+.project__listItem--dark{
+    text-decoration: none;
+    color: white;
+}

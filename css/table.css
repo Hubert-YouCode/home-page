@@ -1,0 +1,25 @@
+.table{
+    border: 1px solid black;
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+    margin-bottom: 10px;
+    overflow-x: auto;
+}
+
+.table__header{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.185);
+}
+
+.table__cell{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.table__title{
+    margin: 10px auto;
+}
+

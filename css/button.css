@@ -1,0 +1,16 @@
+.button{
+    margin-top: 10px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.button__item{
+    border-radius: 25px;
+    background-color: rgba(0, 255, 255, 0.445);
+    padding: 5px;
+}
+
+.button__item:hover{
+    background-color: rgba(0, 255, 255, 0.596);
+    color: rgba(0, 0, 255, 0.425);
+}

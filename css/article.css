@@ -1,0 +1,10 @@
+.article{
+    margin: auto;
+    max-width: 80%;
+    min-width: 80%;
+}
+
+.article__item{
+    line-height: 1.5;
+    padding: 5px;
+}

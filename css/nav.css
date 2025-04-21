@@ -1,0 +1,22 @@
+.nav{
+    box-shadow: 3px 3px 5px ;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.445);
+    border-radius: 10px;
+    max-width: 70%;
+}
+
+.nav__item{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+.nav__item:hover {
+    color: blue;
+}

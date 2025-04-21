@@ -1,0 +1,10 @@
+.image{
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.image__item{
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px;
+}

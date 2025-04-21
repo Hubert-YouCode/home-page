@@ -1,0 +1,37 @@
+.footer{
+    text-align: center;
+   padding: 10px;
+   background-color: rgba(128, 128, 128, 0.719);
+   color: rgb(255, 255, 255);
+   margin: 0;
+}
+
+.footer__contact{
+    margin: auto;
+    padding: 5px;
+    padding-bottom: 15px;
+    max-width: 50%;
+    
+}
+
+
+
+.footer__contactItem{
+    text-decoration: none;
+    color: white;
+    
+    padding-right: 15px;
+    
+    
+}
+
+.footer__contactItem:hover{
+    color: rgba(0, 0, 255, 0.438);
+}
+
+.footer__Copyright{
+    padding: 10px;
+    border-top: 2px solid white;
+    max-width: 50%;
+    margin: auto;
+}
