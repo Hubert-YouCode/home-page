@@ -1,7 +1,8 @@
-let body = document.querySelector(".body");
-let button = document.querySelector(".button");
-let projectItem = document.querySelector(".project__listItem")
-let buttonName = document.querySelector(".button__name")
+{
+const body = document.querySelector(".body");
+const button = document.querySelector(".button");
+const projectItem = document.querySelector(".project__listItem")
+const buttonName = document.querySelector(".button__name")
 
 button.addEventListener("click", () => {
     body.classList.toggle("dark");
@@ -13,4 +14,5 @@ button.addEventListener("click", () => {
         buttonName.innerText = ("Ciemny motyw");
     }
 
-})
+});
+}
